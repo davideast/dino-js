@@ -13,9 +13,13 @@
   },
   "main": "lib/index.js",
   "dependencies": {
+    "@types/react": "^16.8.21",
+    "@types/react-dom": "^16.8.4",
     "express": "^4.17.1",
     "firebase-admin": "~7.0.0",
-    "firebase-functions": "^2.3.0"
+    "firebase-functions": "^2.3.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "firebase-functions-test": "^0.1.6",

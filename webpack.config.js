@@ -3,7 +3,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 module.exports = {
   mode: "production",
   // devtool: "inline-source-map",
-  entry: "./src/index.tsx",
+  entry: "./functions/src/client.tsx",
   output: {
     filename: "bundle.js"
   },

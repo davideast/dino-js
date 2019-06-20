@@ -3,5 +3,8 @@
     "module": "esnext",
     "moduleResolution": "node",
     "jsx": "react",
-  }
+  },
+  "files": [
+    "functions/src/client.tsx"
+  ]
 }

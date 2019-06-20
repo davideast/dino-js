@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "serve": "serve-react assets -t -e src/index.tsx",
-    "build": "webpack"
+    "build": "webpack",
+    "build:server": "tsc -p tsconfig.server.json"
   },
   "keywords": [],
   "author": "",
